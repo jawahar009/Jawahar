@@ -13,10 +13,7 @@ public class LoginBean {
 		this.password = password;
 	}
 
-	public String getUserName() {
-		return userName;
-	}
-
+	
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
@@ -28,6 +25,13 @@ public class LoginBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	
+	public String getUserName() {
+		
+		return userName;
+	}
+	
+	
 
 	@Override
 	public String toString() {

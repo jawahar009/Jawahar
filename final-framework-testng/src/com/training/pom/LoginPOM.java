@@ -35,4 +35,9 @@ public class LoginPOM {
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
 	}
+	
+	public String getusername() {
+		String getusername=this.userName.getText();
+		return getusername;
+	}
 }
